@@ -1,6 +1,7 @@
 ---
 /* import Test from './Test.vue'; */
 import '@/styles/globals.css'
+
 ---
 
 <!DOCTYPE html>
@@ -10,13 +11,16 @@ import '@/styles/globals.css'
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astro</title>
 </head>
-<body>
-    
+<body class="">
+    <main>
+        <h2>Світ</h1>
+    </main>
 </body>
 </html>
 
 <style>
-
-	
-
+    main {
+        max-width: 604px; /* Задайте максимальную ширину по вашему выбору */
+        margin: 0 auto; /* Устанавливаем автоматические отступы по бокам для центрирования */
+    }
 </style>
