@@ -1,33 +1,86 @@
 ---
 // import Test from './Test.vue'; 
 import '@/styles/globals.css';
-import Home from '@/modules/Home.vue';
+import Home from '@/modules/home.vue';
+import { imageConfig } from 'astro:assets';
+import Header from '@/modules/header.vue';
+
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"  content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>Astro</title>
+    <style>
+        /*
+        body {
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            max-width: 900px; /
+            margin: 0 auto; 
+        }
+        main{
+            width: 100%;
+        }
+        */
+        html,
+          body {
+            position: relative;
+            height: 100%;
+            
+          }
+    
+          body {
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+          }
+    
+          swiper-container {
+            width: 100%;
+            height: 100%;
+          }
+    
+          swiper-slide {
+            font-size: 18px;
+            height: 100vh;
+            max-width: 900px; 
+            margin: 0 auto; 
+            display: grid;
+            place-items: center;
+          }
+    
+          swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+    </style>
+    
 </head>
 <body class="dark">
-    <main>
-        <Home/>
-        <h2>Світ</h1>
-    </main>
+    <Header/>
+     <swiper-container
+        class="mySwiper"
+        pagination="true"
+        pagination-clickable="false"
+        direction="vertical"
+        space-between="1"
+        mousewheel="true"
+     >
+     
+        <swiper-slide><Home/></swiper-slide>
+        <swiper-slide>Slide 2</swiper-slide>
+    </swiper-container>
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+   
 </body>
 </html>
 
-<style>
-    body {
-        display: grid;
-        place-items: center;
-        height: 100vh;
-        max-width: 604px; /* Задайте максимальную ширину по вашему выбору */
-        margin: 0 auto; /* Устанавливаем автоматические отступы по бокам для центрирования */
-    }
-    main{
-        width: 100%;
-    }
-</style>

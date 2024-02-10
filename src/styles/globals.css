@@ -2,16 +2,32 @@
 @tailwind components;
 @tailwind utilities;
  
+
+Button{
+  font-family: "e-UkraineHead-Regular", sans-serif;
+}
 body {
   margin: 0;
   padding: 0;
 }
 
 h2{
-  font-size: 18px;
+  font-size: 25px;
   font-family: "e-Ukraine-Medium", sans-serif;
   text-decoration: underline rgb(95, 95, 95); 
   text-decoration-thickness: 4px; 
+}
+
+h3{
+  font-size: 14px;
+  font-family: "e-Ukraine-Medium", sans-serif;
+}
+
+.horizontal-line {
+  width: 100%; /* Ширина лінії на всю ширину блоку */
+  border-top: 1px solid #929292; /* Товщина, тип і колір лінії */
+  margin: 20px 0; /* Відступи від верху і низу лінії */
+  box-shadow: 5px 5px 50px 0px rgba(255, 255, 255, 0.1);
 }
 
 @layer base {
@@ -47,11 +63,12 @@ h2{
   }
    
   .dark {
-    --background:20 14.3% 4.1%;
+    --background:20 14.3% 4.1%; 
     --foreground:60 9.1% 97.8%;
   
     --card:20 14.3% 4.1%;
     --card-foreground:60 9.1% 97.8%;
+    --card-height: 50%;
   
     --popover:20 14.3% 4.1%;
     --popover-foreground:60 9.1% 97.8%;

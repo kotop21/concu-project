@@ -8,10 +8,10 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div
+  <div class="card-container"
     :class="
       cn(
-        'rounded-xl border bg-card text-card-foreground shadow',
+        'rounded-xl border text-card-foreground shadow',
         props.class,
       )
     "
@@ -19,3 +19,22 @@ const props = defineProps<{
     <slot />
   </div>
 </template>
+
+<style scoped>
+.card-container {
+  max-height: 500px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.card-container::-webkit-scrollbar {
+  width: 3px;
+
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  background-color: #929292;
+  border-radius: 1px;
+}
+
+</style>
