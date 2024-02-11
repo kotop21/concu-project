@@ -5,5 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [vue(), tailwind({applyBaseStyles: false})]
+  integrations: [vue(), tailwind({applyBaseStyles: false})],
+  site: 'https://voyadher.github.io',
+  base: '/my-repo',
 });
