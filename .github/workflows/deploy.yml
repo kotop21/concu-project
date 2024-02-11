@@ -1,14 +1,14 @@
-name: Розгортання на GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
-  # Запуск робочого процесу кожен раз при здійсненні push в гілку `main`
-  # Використовуєте інше ім'я гілки? Замініть `main` на ім'я вашої гілки
+  # Trigger the workflow every time you push to the `main` branch
+  # Using a different branch name? Replace `main` with your branch’s name
   push:
     branches: [ main ]
-  # Дозволяє вам запускати цей робочий процес вручну з вкладки Actions на GitHub.
+  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
-# Дозволяє цьому завданню клонувати репозиторій та створювати розгортання сторінок
+# Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
   pages: write
@@ -18,14 +18,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout вашого репозиторію за допомогою git
+      - name: Checkout your repository using git
         uses: actions/checkout@v3
-      - name: Встановлення, збірка та завантаження вашого сайту
+      - name: Install, build, and upload your site
         uses: withastro/action@v1
          with:
-          # path: . # Кореневе розташування вашого проекту Astro в межах репозиторію. (необов'язково)
-          # node-version: 18 # Конкретна версія Node, яку слід використовувати для збирання вашого сайту. За замовчуванням 18. (необов'язково)
-          package-manager: pnpm@latest # Менеджер пакетів Node, який слід використовувати для встановлення залежностей та збірки вашого сайту. Автоматично визначається на основі вашого lockfile. (необов'язково)
+          # path: . # The root location of your Astro project inside the repository. (optional)
+          # node-version: 18 # The specific version of Node that should be used to build your site. Defaults to 18. (optional)
+           package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
 
   deploy:
     needs: build
@@ -34,6 +34,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Розгортання на GitHub Pages
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
