@@ -4,7 +4,10 @@ import '@/styles/globals.css';
 import Home from '@/modules/home.vue';
 import { imageConfig } from 'astro:assets';
 import Header from '@/modules/header.vue';
-
+import History from '@/modules/history.vue';
+import News from '@/modules/news.vue';
+import Facts from '@/modules/facts.vue';
+import Plastivka from '@/modules/gold-plastivka.vue';
 ---
 
 <!DOCTYPE html>
@@ -12,7 +15,8 @@ import Header from '@/modules/header.vue';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"  content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <title>Astro</title>
+    <title>Вояджер</title>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.51/build/spline-viewer.js"></script>
     <style>
         /*
         body {
@@ -48,11 +52,21 @@ import Header from '@/modules/header.vue';
           swiper-slide {
             font-size: 18px;
             height: 100vh;
-            max-width: 900px; 
+            max-width: 800px; 
             margin: 0 auto; 
             display: grid;
             place-items: center;
+            opacity: 0; 
+            animation: fadeIn 0.5s ease-in-out forwards; 
           }
+          @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
     
           swiper-slide img {
             display: block;
@@ -64,23 +78,26 @@ import Header from '@/modules/header.vue';
     
 </head>
 <body class="dark">
-    <Header/>
+  <Header client:visible/>
      <swiper-container
         class="mySwiper"
         pagination="true"
-        pagination-clickable="false"
+        pagination-clickable="true"
         direction="vertical"
         space-between="1"
         mousewheel="true"
      >
      
-        <swiper-slide><Home/></swiper-slide>
-        <swiper-slide>Slide 2</swiper-slide>
+        <swiper-slide id="home"><Home client:visible/></swiper-slide>
+        <swiper-slide><History client:visible/></swiper-slide>
+        <swiper-slide><News client:visible/></swiper-slide>
+        <swiper-slide><Plastivka client:visible/></swiper-slide>
+        <swiper-slide><Facts client:visible/></swiper-slide>
     </swiper-container>
   
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
-   
+
+
 </body>
 </html>
-

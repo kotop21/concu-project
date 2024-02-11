@@ -11,7 +11,7 @@ const props = defineProps<{
   <div class="card-container"
     :class="
       cn(
-        'rounded-xl border text-card-foreground shadow',
+        'rounded-xl text-card-foreground',
         props.class,
       )
     "
@@ -22,7 +22,7 @@ const props = defineProps<{
 
 <style scoped>
 .card-container {
-  max-height: 500px;
+  max-height: 600px;
   overflow-y: auto;
   box-sizing: border-box;
 }

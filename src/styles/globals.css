@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
  
+.shadow{
+  box-shadow: 5px 5px 50px 0px rgba(198, 198, 198, 0.04 );
+
+}
+
+.grid{
+  display: grid;
+}
 
 Button{
   font-family: "e-UkraineHead-Regular", sans-serif;
@@ -32,13 +40,13 @@ h3{
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 30,44%,90%;
     --foreground: 20 14.3% 4.1%;
   
     --card: 0 0% 100%;
     --card-foreground: 20 14.3% 4.1%;
 
-    --popover: 0 0% 100%;
+    --popover: 30,44%,90%;
     --popover-foreground: 20 14.3% 4.1%;
   
     --primary: 24 9.8% 10%;
