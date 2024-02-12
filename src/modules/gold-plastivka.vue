@@ -47,7 +47,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                         <li>Під цим є копія першого зображення в записі, щоб дозволити одержувачам перевірити, чи правильно вони декодують сигнали.</li>
                       </ul>
                       На цьому зображенні було використано коло, щоб переконатися, що реципієнти використовують правильне співвідношення горизонтальної та вертикальної висоти під час реконструкції зображення.
-                      <br><br><img src="././public/img/unnamed (7).jpg"/>       
+                      <br><br><img src="7.jpg"/>       
                     </AccordionContent>
                     </AccordionItem>
                 </Accordion>
