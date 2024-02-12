@@ -12,7 +12,7 @@
 }
 
 Button{
-  font-family: "e-UkraineHead-Regular", sans-serif;
+  font-family: "../../public/font/e-Ukraine Head/e-UkraineHead-Regular", sans-serif;
 }
 body {
   margin: 0;
@@ -21,14 +21,14 @@ body {
 
 h2{
   font-size: 25px;
-  font-family: "e-Ukraine-Medium", sans-serif;
+  font-family: "../../public/font/e-Ukraine/e-Ukraine-Medium", sans-serif;
   text-decoration: underline rgb(95, 95, 95); 
   text-decoration-thickness: 4px; 
 }
 
 h3{
   font-size: 14px;
-  font-family: "e-Ukraine-Medium", sans-serif;
+  font-family: "../../public/font/e-Ukraine/e-Ukraine-Medium", sans-serif;
 }
 
 .horizontal-line {
