@@ -24,16 +24,25 @@ const preventParentScroll = (event) => {
   event.stopPropagation();
 };
 
+const handleTouch = (event) => {
+  event.preventDefault();
+  event.stopPropagation();
+};
+
 onMounted(() => {
-  const container = document.getElementById('module3'); // Замените 'your-container-id' на реальный идентификатор вашего контейнера
+  const container = document.getElementById('module3');
+
   container.addEventListener('wheel', preventParentScroll);
+  container.addEventListener('touchmove', preventParentScroll);
 });
 
-// Помните убрать внешний обработчик после уничтожения компонента
 onBeforeUnmount(() => {
   const container = document.getElementById('module3');
+
   container.removeEventListener('wheel', preventParentScroll);
+  container.removeEventListener('touchmove', preventParentScroll);
 });
+
 </script>
 
 <template>

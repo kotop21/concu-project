@@ -16,20 +16,29 @@ const preventParentScroll = (event) => {
   event.stopPropagation();
 };
 
+const handleTouch = (event) => {
+  event.preventDefault();
+  event.stopPropagation();
+};
+
 onMounted(() => {
-  const container = document.getElementById('module1'); // Замените 'your-container-id' на реальный идентификатор вашего контейнера
+  const container = document.getElementById('module5');
+
   container.addEventListener('wheel', preventParentScroll);
+  container.addEventListener('touchmove', preventParentScroll);
 });
 
-// Помните убрать внешний обработчик после уничтожения компонента
 onBeforeUnmount(() => {
-  const container = document.getElementById('module1');
+  const container = document.getElementById('module5');
+
   container.removeEventListener('wheel', preventParentScroll);
+  container.removeEventListener('touchmove', preventParentScroll);
 });
+
 </script>
 
 <template>
-  <Card id="module1">
+  <Card id="module5">
     <CardHeader>
       <CardTitle style="display: flex; align-items: center; ">
         <Lightbulb class="w-7 h-7" />
