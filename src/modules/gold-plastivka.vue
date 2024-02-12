@@ -47,7 +47,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                         <li>Під цим є копія першого зображення в записі, щоб дозволити одержувачам перевірити, чи правильно вони декодують сигнали.</li>
                       </ul>
                       На цьому зображенні було використано коло, щоб переконатися, що реципієнти використовують правильне співвідношення горизонтальної та вертикальної висоти під час реконструкції зображення.
-                      <br><br><img src="../../public/img/unnamed (7).jpg"/>       
+                      <br><br><img src="https://keep.google.com/u/0/media/v2/1ULKTljpAHPjKbB-DS8oTyqM4tWt-Vx7r10o2wheVCKyk9u0VGbzMh30RL8ihe00/1nYYaFpw-LuY21zEwovqIuNxE833R8K_Z2eFV-j4vB8VssKmDACvngcpp_FRGFmo?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp"/>       
                     </AccordionContent>
                     </AccordionItem>
                 </Accordion>
@@ -61,13 +61,13 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                         <br><br>Карл Саган</blockquote><br><br>
 Кожна платівка загорнута в захисну алюмінієву оболонку разом з картриджем і голкою. Інструкція символічною мовою пояснює походження космічного апарату та вказує, як відтворювати платівку. 115 зображень закодовані в аналоговій формі.
 <br>
-                    <br><img src="../../public/img/unnamed (1).gif"/>
+                    <br><img src="https://keep.google.com/u/0/media/v2/1Js1sA6FK82SqwHuuOhONGcP6A7CXED56oxUmzUC4S5GSrmbivii2ZVHFQYZ_Gw/1FQ776RAOfK4gFud-vi7EGzD6Iy9M0VghJTBa-2J13dDebyPpF133hceQ0nIuEA?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp"/>
                     Анатомія людської дитини
-                    <img src="../../public/img/unnamed (2).gif"/>
+                    <img src="https://keep.google.com/u/0/media/v2/1wCxUk6Ua8a6Ya4D-nSrpCTXZGxYXJfqVMab9o-7GEQ_aaNGoLS2ahzNVxovi7Xo/1MrMAYcI-jkaSZfEyU7LjWcywh6nMQkwEqBLpqI-lRNiMhNQzSGAcZsM40xVVEkg?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp"/>
                     Запуск ракети
-                    <img src="../../public/img/unnamed (3).gif"/>
+                    <img src="https://keep.google.com/u/0/media/v2/1JcmNMcLpjJPhb3ZtoVqq8HHoiDtSyT7vT3fb-kK2aZB_jRqUyjpfkttgMO5P9A/1m6dUuipgs-C8RfzmjuNboQ21KPWtgCKe0m2aNUAQO20xM2YWupt2g6qlePzXk_w?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp"/>
                     Рентген людської руки
-                    <img src="../../public/img/unnamed (4).gif"/>
+                    <img src="https://keep.google.com/u/0/media/v2/1IJndPQs4sCsILauuZCFExmoVGxBzpNBCeK6HlA4rIxYgmb0k_Ocdzw2PhwvWFjg/1MR_WeVPYBMyb-p6EHF-mPo7DmTL-TlFe7Aanwm6fswAFa4r1oxUFqnHkjzuaWQ?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp"/>
                     Людські діти та глобус
                     </AccordionContent>
                     </AccordionItem>
