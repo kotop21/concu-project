@@ -47,7 +47,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                         <li>Під цим є копія першого зображення в записі, щоб дозволити одержувачам перевірити, чи правильно вони декодують сигнали.</li>
                       </ul>
                       На цьому зображенні було використано коло, щоб переконатися, що реципієнти використовують правильне співвідношення горизонтальної та вертикальної висоти під час реконструкції зображення.
-                      <br><br><img src="7.jpg"/>       
+                      <br><br><img src="/img/7.jpg"/>
                     </AccordionContent>
                     </AccordionItem>
                 </Accordion>
@@ -61,7 +61,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                         <br><br>Карл Саган</blockquote><br><br>
 Кожна платівка загорнута в захисну алюмінієву оболонку разом з картриджем і голкою. Інструкція символічною мовою пояснює походження космічного апарату та вказує, як відтворювати платівку. 115 зображень закодовані в аналоговій формі.
 <br>
-                    <br><img src="2.JPG"/>
+                    <br><img src="https://media.discordapp.net/attachments/854647157495824394/1206605175045885993/1.JPG?ex=65dc9da3&is=65ca28a3&hm=c87f35fc54ba659890bb4622c91c10574ed8068091760e5c1645388ca7dc48b5&=&format=webp&width=1024&height=682"/>
                     Анатомія людської дитини
                     <img src="././public/img/unnamed (2).gif"/>
                     Запуск ракети
