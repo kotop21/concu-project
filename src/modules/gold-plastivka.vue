@@ -47,7 +47,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                         <li>Під цим є копія першого зображення в записі, щоб дозволити одержувачам перевірити, чи правильно вони декодують сигнали.</li>
                       </ul>
                       На цьому зображенні було використано коло, щоб переконатися, що реципієнти використовують правильне співвідношення горизонтальної та вертикальної висоти під час реконструкції зображення.
-                      <br><br><img src="https://media.discordapp.net/attachments/854647157495824394/1206605175045885993/1.JPG?ex=65dc9da3&is=65ca28a3&hm=c87f35fc54ba659890bb4622c91c10574ed8068091760e5c1645388ca7dc48b5&=&format=webp&width=1024&height=682"/>       
+                      <br><br><img src="https://media.discordapp.net/attachments/854647157495824394/1206613205116522496/7.jpg?ex=65dca51d&is=65ca301d&hm=2cc00c6ae30cf8b9a3c712f9ec164f1b849f59479abc0ca9722978575a61afff&=&format=webp&width=1024&height=540"/>       
                     </AccordionContent>
                     </AccordionItem>
                 </Accordion>
@@ -61,13 +61,13 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                         <br><br>Карл Саган</blockquote><br><br>
 Кожна платівка загорнута в захисну алюмінієву оболонку разом з картриджем і голкою. Інструкція символічною мовою пояснює походження космічного апарату та вказує, як відтворювати платівку. 115 зображень закодовані в аналоговій формі.
 <br>
-                    <br><img src="../../public/images/2.JPG"/>
+                    <br><img src="https://media.discordapp.net/attachments/854647157495824394/1206613204449501184/2.jpg?ex=65dca51d&is=65ca301d&hm=f17f64d28e8436718b7f42bc7f1e35fe4edae139c1443be3c397e383e95146b3&=&format=webp&width=1024&height=768"/>
                     Анатомія людської дитини
-                    <img src="././public/img/unnamed (2).gif"/>
+                    <img src="https://media.discordapp.net/attachments/854647157495824394/1206613205678428190/unnamed_2.gif?ex=65dca51e&is=65ca301e&hm=32b19706bfab93843d93d0500547be0930fd980c7188e1fecc05462f653d9792&=&width=1024&height=768"/>
                     Запуск ракети
-                    <img src="././public/img/unnamed (3).gif"/>
+                    <img src="https://media.discordapp.net/attachments/854647157495824394/1206613187261108304/unnamed_3.gif?ex=65dca519&is=65ca3019&hm=84c2e5cd4493aa286502b142c230fcd2a567b09fa4004201f1c402a781916917&=&width=1024&height=768"/>
                     Рентген людської руки
-                    <img src="././public/img/unnamed (4).gif"/>
+                    <img src="https://media.discordapp.net/attachments/854647157495824394/1206613187613556856/unnamed_4.gif?ex=65dca519&is=65ca3019&hm=cfdf9ba11a7ddb151dd0d27cfa71fb580d2e6110e4163565cc163e791d4c9bde&=&width=1024&height=768"/>
                     Людські діти та глобус
                     </AccordionContent>
                     </AccordionItem>
@@ -77,7 +77,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                     <AccordionTrigger>Створення Золотої платівки</AccordionTrigger>
                     <AccordionContent>
                       Багато людей брали участь у розробці, створенні та виготовленні золотої платівки. Чисті платівки були надані компанією Pyral S.A. з міста Крітей, Франція. CBS Records уклала контракт з Центром різання JVC у Боулдері, штат Колорадо, щоб вирізати лакові диски, які потім були відправлені до Центру обробки записів Джеймса Г. Лі у Гардені, штат Каліфорнія, щоб вирізати і позолотити вісім платівок Вояджера. Позолота була нанесена 23 серпня 1977 року, після чого платівки були змонтовані в алюмінієві контейнери і доставлені в JPL. Платівка виготовлена з позолоченої міді і має діаметр 12 дюймів (30 см). Обкладинка платівки алюмінієва, на ній гальванічним способом нанесено надчистий зразок ізотопу урану-238. Період напіврозпаду урану-238 становить 4,468 мільярда років. На поверхні платівки також викарбувано вручну напис "Творцям музики - усім світам, усім часам".<br>
-                    <br><img src="././public/img/unnamed (8).jpg"/>       
+                    <br><img src="https://media.discordapp.net/attachments/854647157495824394/1206613194710192238/unnamed_8.jpg?ex=65dca51b&is=65ca301b&hm=fef20eb51ba27da87db2f218248772523253ff46f4080363ee251ced8deabff6&=&format=webp&width=1024&height=950"/>       
                     </AccordionContent>
                     </AccordionItem>
                 </Accordion>
