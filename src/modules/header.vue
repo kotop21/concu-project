@@ -34,7 +34,7 @@ import {
 
               <DropdownMenuItem>
                 <Github class="mr-2 h-4 w-4"/>
-                <a target="_blank" href="https://github.com/kotop21/concu-project">Github</a>
+                <a target="_blank" href="https://github.com/kotop21/concu-project">Source</a>
               </DropdownMenuItem>
               <DropdownMenuSeparator />
             <DropdownMenuItem>
