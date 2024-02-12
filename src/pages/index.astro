@@ -16,7 +16,8 @@ import Plastivka from '@/modules/gold-plastivka.vue';
     <meta name="viewport"  content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>Вояджер</title>
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.51/build/spline-viewer.js"></script>
-    <style>
+   
+   <style>
         /*
         body {
             display: grid;
@@ -72,6 +73,14 @@ import Plastivka from '@/modules/gold-plastivka.vue';
             height: 100%;
             object-fit: cover;
           }
+          swiper-container::part(bullet) {
+            background-color: rgb(255, 255, 255);
+            size: 20px;
+          }
+          swiper-container::part(bullet-active) {
+            background-color: rgb(105, 105, 105);
+            size: 20px;
+          }
     </style>
     
 </head>
@@ -80,22 +89,22 @@ import Plastivka from '@/modules/gold-plastivka.vue';
      <swiper-container
         class="mySwiper"
         pagination="true"
-        pagination-clickable="true"
+        pagination-clickable="false"
         direction="vertical"
-        space-between="1"
+        space-between="0"
         mousewheel="true"
+        allowTouchMove="false"
      >
      
         <swiper-slide><Home client:visible/></swiper-slide>
-        <swiper-slide><History client:visible/></swiper-slide>
+        <swiper-slide ><History client:visible/></swiper-slide>
         <swiper-slide><News client:visible/></swiper-slide>
         <swiper-slide><Plastivka client:visible/></swiper-slide>
         <swiper-slide><Facts client:visible/></swiper-slide>
     </swiper-container>
   
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-
-
+  
 
 </body>
 </html>

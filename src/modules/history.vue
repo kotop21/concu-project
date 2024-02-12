@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { Button } from '@/components/ui/button'
 import { Home, ScanEye, Book, Eclipse } from 'lucide-vue-next'
 import {
@@ -18,10 +18,26 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog'
+import { onMounted, onBeforeUnmount } from 'vue';
+
+const preventParentScroll = (event) => {
+  event.stopPropagation();
+};
+
+onMounted(() => {
+  const container = document.getElementById('module3'); // Замените 'your-container-id' на реальный идентификатор вашего контейнера
+  container.addEventListener('wheel', preventParentScroll);
+});
+
+// Помните убрать внешний обработчик после уничтожения компонента
+onBeforeUnmount(() => {
+  const container = document.getElementById('module3');
+  container.removeEventListener('wheel', preventParentScroll);
+});
 </script>
 
 <template>
-  <Card>
+  <Card id="module3">
     <CardHeader>
       <CardTitle style="display: flex; align-items: center; height: 60px;">
         <Book class="w-7 h-7" />
@@ -81,4 +97,5 @@ import {
 .shadow {
   box-shadow: 5px 5px 50px 0px rgba(198, 198, 198, 0.04);
 
-}</style>
+}
+</style>

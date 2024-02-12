@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.card{
-  z-index: 100000;
-}
+
 
 .shadow{
   box-shadow: 5px 5px 50px 0px rgba(198, 198, 198, 0.04 );
