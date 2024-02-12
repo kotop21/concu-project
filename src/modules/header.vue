@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import { AlignJustify, Home, Satellite, Github, Rocket, BookOpenText} from 'lucide-vue-next'
+import { AlignJustify, Home, Satellite, Github, Rocket, BookOpenText } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
 import {
   DropdownMenu,
@@ -18,10 +18,10 @@ import {
     <div class="header-container">
       <div class="header-section title-section" style="font-size: 21px;">
         <p class="shadow">Вояджер</p>
-        <Satellite class=""/>
+        <Satellite class="" />
       </div>
       <div class="header-section buttons-section">
-        
+
       </div>
       <div class="header-section theme-switch-section">
         <DropdownMenu>
@@ -32,19 +32,21 @@ import {
           </DropdownMenuTrigger>
           <DropdownMenuContent>
 
-              <DropdownMenuItem>
-                <Github class="mr-2 h-4 w-4"/>
-                <a target="_blank" href="https://github.com/kotop21/concu-project">Source</a>
-              </DropdownMenuItem>
-              <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <Rocket class="mr-2 h-4 w-4"/>
+              <Github class="mr-2 h-4 w-4" />
+              <a target="_blank" href="https://github.com/kotop21/concu-project">Source</a>
+            </DropdownMenuItem>
+            <DropdownMenuSeparator />
+            <DropdownMenuItem>
+              <Rocket class="mr-2 h-4 w-4" />
               <a target="_blank" href="https://voyager.jpl.nasa.gov/">Nasa</a>
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <BookOpenText class="mr-2 h-4 w-4"/>
-              <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%8F%D0%B4%D0%B6%D0%B5%D1%80-1">Wikipedia</a>
+              <BookOpenText class="mr-2 h-4 w-4" />
+              <a target="_blank"
+                href="https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%8F%D0%B4%D0%B6%D0%B5%D1%80-1">Wikipedia</a>
             </DropdownMenuItem>
+            
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
@@ -62,23 +64,24 @@ header {
   justify-content: center;
   height: 60px;
 }
+
 .fixed-header {
   position: fixed;
   width: 100%;
   z-index: 2;
   backdrop-filter: blur(10px);
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.3s ease;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .title-section {
-    padding-left: 43px;
+  padding-left: 43px;
 }
 
 
@@ -88,6 +91,7 @@ header {
 }
 
 @media (max-width: 870px) {
+
   .title-section,
   .theme-switch-section {
     position: fixed;
@@ -103,5 +107,4 @@ header {
   .theme-switch-section {
     right: 0;
   }
-}
-</style>
+}</style>
