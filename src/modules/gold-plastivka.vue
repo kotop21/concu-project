@@ -47,7 +47,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                         <li>Під цим є копія першого зображення в записі, щоб дозволити одержувачам перевірити, чи правильно вони декодують сигнали.</li>
                       </ul>
                       На цьому зображенні було використано коло, щоб переконатися, що реципієнти використовують правильне співвідношення горизонтальної та вертикальної висоти під час реконструкції зображення.
-                      <br><br><img src="../../public/img/unnamed (7).jpg"/>       
+                      <br><br><img src="././public/img/unnamed (7).jpg"/>       
                     </AccordionContent>
                     </AccordionItem>
                 </Accordion>
@@ -61,13 +61,13 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                         <br><br>Карл Саган</blockquote><br><br>
 Кожна платівка загорнута в захисну алюмінієву оболонку разом з картриджем і голкою. Інструкція символічною мовою пояснює походження космічного апарату та вказує, як відтворювати платівку. 115 зображень закодовані в аналоговій формі.
 <br>
-                    <br><img src="../../public/img/unnamed (1).gif"/>
+                    <br><img src="././public/img/unnamed (1).gif"/>
                     Анатомія людської дитини
-                    <img src="../../public/img/unnamed (2).gif"/>
+                    <img src="././public/img/unnamed (2).gif"/>
                     Запуск ракети
-                    <img src="../../public/img/unnamed (3).gif"/>
+                    <img src="././public/img/unnamed (3).gif"/>
                     Рентген людської руки
-                    <img src="../../public/img/unnamed (4).gif"/>
+                    <img src="././public/img/unnamed (4).gif"/>
                     Людські діти та глобус
                     </AccordionContent>
                     </AccordionItem>
@@ -77,7 +77,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                     <AccordionTrigger>Створення Золотої платівки</AccordionTrigger>
                     <AccordionContent>
                       Багато людей брали участь у розробці, створенні та виготовленні золотої платівки. Чисті платівки були надані компанією Pyral S.A. з міста Крітей, Франція. CBS Records уклала контракт з Центром різання JVC у Боулдері, штат Колорадо, щоб вирізати лакові диски, які потім були відправлені до Центру обробки записів Джеймса Г. Лі у Гардені, штат Каліфорнія, щоб вирізати і позолотити вісім платівок Вояджера. Позолота була нанесена 23 серпня 1977 року, після чого платівки були змонтовані в алюмінієві контейнери і доставлені в JPL. Платівка виготовлена з позолоченої міді і має діаметр 12 дюймів (30 см). Обкладинка платівки алюмінієва, на ній гальванічним способом нанесено надчистий зразок ізотопу урану-238. Період напіврозпаду урану-238 становить 4,468 мільярда років. На поверхні платівки також викарбувано вручну напис "Творцям музики - усім світам, усім часам".<br>
-                    <br><img src="../../public/img/unnamed (8).jpg"/>       
+                    <br><img src="././public/img/unnamed (8).jpg"/>       
                     </AccordionContent>
                     </AccordionItem>
                 </Accordion>
