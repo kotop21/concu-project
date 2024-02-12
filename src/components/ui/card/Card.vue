@@ -39,7 +39,7 @@ const props = defineProps<{
 
 @media (max-width: 870px) {
   .card-container {
-    max-height: 530px;
+    max-height: 550px;
   }
 }
 
