@@ -88,7 +88,7 @@ header {
 }
 
 /* Media query for 800px and below */
-@media (max-width: 850px) {
+@media (max-width: 860px) {
   .title-section,
   .theme-switch-section {
     position: fixed;
