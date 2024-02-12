@@ -32,9 +32,9 @@ h3{
 }
 
 .horizontal-line {
-  width: 100%; /* Ширина лінії на всю ширину блоку */
-  border-top: 1px solid #929292; /* Товщина, тип і колір лінії */
-  margin: 20px 0; /* Відступи від верху і низу лінії */
+  width: 100%;
+  border-top: 1px solid #929292; 
+  margin: 20px 0;
   box-shadow: 5px 5px 50px 0px rgba(255, 255, 255, 0.1);
 }
 

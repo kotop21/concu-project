@@ -67,14 +67,14 @@ header {
   width: 100%;
   z-index: 2;
   backdrop-filter: blur(10px);
-  transition: background-color 0.3s ease; /* Анимация изменения цвета фона */
+  transition: background-color 0.3s ease; 
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px; /* Добавлен отступ для красоты */
+  padding: 20px; 
 }
 
 .title-section {
@@ -87,14 +87,13 @@ header {
   align-items: center;
 }
 
-/* Media query for 800px and below */
-@media (max-width: 860px) {
+@media (max-width: 870px) {
   .title-section,
   .theme-switch-section {
     position: fixed;
 
     padding: 20px;
-    z-index: 1001; /* Ensure it's above the .fixed-header */
+    z-index: 1001;
   }
 
   .title-section {
