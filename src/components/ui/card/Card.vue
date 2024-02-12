@@ -37,10 +37,16 @@ const props = defineProps<{
   border-radius: 1px;
 }
 
-@media (max-height: 450px) {
+@media (max-width: 800px) {
   .card-container {
-    max-height: 520px;
+    max-height: 580px;
   }
 }
+@media (max-width: 500px) {
+  .card-container {
+    max-height: 560px;
+  }
+}
+
 
 </style>
