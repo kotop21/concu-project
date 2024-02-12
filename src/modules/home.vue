@@ -51,7 +51,7 @@ import {
           <CardFooter>
             <Dialog>
               <DialogTrigger>
-              <Button><ScanEye/>Просмотр в 3д</Button>
+              <Button><ScanEye/>Перегляд в 3д</Button>
               </DialogTrigger>
               <DialogContent>
                 <DialogHeader>
