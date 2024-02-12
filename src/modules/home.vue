@@ -101,8 +101,9 @@ onBeforeUnmount(() => {
 </template>
 
 <style>
+
 .shadow {
   box-shadow: 5px 5px 50px 0px rgba(198, 198, 198, 0.04);
 
 }
-</style>../scripts/no_scrol.js../scripts/no_scrol.js
+</style>
