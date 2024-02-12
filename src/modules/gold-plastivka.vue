@@ -61,7 +61,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                         <br><br>Карл Саган</blockquote><br><br>
 Кожна платівка загорнута в захисну алюмінієву оболонку разом з картриджем і голкою. Інструкція символічною мовою пояснює походження космічного апарату та вказує, як відтворювати платівку. 115 зображень закодовані в аналоговій формі.
 <br>
-                    <br><img src="../../public/images/2.JPG"/>
+                    <br><img src="././public/images/2.JPG"/>
                     Анатомія людської дитини
                     <img src="././public/img/unnamed (2).gif"/>
                     Запуск ракети
