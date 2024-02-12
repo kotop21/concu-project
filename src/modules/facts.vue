@@ -69,17 +69,19 @@ onBeforeUnmount(() => {
 </template>
 
 <style>
-img {
-  display: block;
-  margin: auto;
-}
-
-.element1 {
-  max-width: 100%;
-}
-
 .shadow {
   box-shadow: 5px 5px 50px 0px rgba(198, 198, 198, 0.04);
 
+}
+
+@media (max-width: 800px) {
+  .card-container {
+    max-height: 600px;
+  }
+}
+@media (max-width: 500px) {
+  .card-container {
+    max-height: 600px;
+  }
 }
 </style>
