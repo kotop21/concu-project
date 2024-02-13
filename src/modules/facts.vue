@@ -38,7 +38,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <Card id="module5">
+  <Card class="card-container" id="module5">
     <CardHeader>
       <CardTitle style="display: flex; align-items: center; ">
         <Lightbulb class="w-7 h-7" />
