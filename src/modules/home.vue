@@ -84,7 +84,7 @@ onBeforeUnmount(() => {
       <Dialog>
         <DialogTrigger>
           <Button>
-            <ScanEye />Перегляд в 3д
+            <ScanEye />Перегляд моделі в 3д
           </Button>
         </DialogTrigger>
         <DialogContent>
