@@ -47,9 +47,9 @@ onBeforeUnmount(() => {
 
 
 <template>
-  <Card id="module">
-    <spline-viewer loading-anim-type="spinner-small-dark"
+                <spline-viewer loading-anim-type="spinner-small-dark"
                 url="https://prod.spline.design/g1SVp-qo1HRHUk14/scene.splinecode"></spline-viewer>
+  <Card id="module">
     <CardHeader>
       <CardTitle style="display: flex; align-items: center; height: 60px;">
         <Home class="w-7 h-7" />
