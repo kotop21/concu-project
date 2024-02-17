@@ -6,8 +6,6 @@
 
 - **shadcn-vue**:
 
-- **vanilla-tilt**:
-
 - **swiperjs**:
 
 
