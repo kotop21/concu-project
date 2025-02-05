@@ -75,7 +75,7 @@ h4{
   }
    
   .dark {
-    --background:260 100% 80%; 
+    --background:258, 100%, 20%; 
     --foreground:42 100% 59%;
   
     --card:20 14.3% 4.1%;
