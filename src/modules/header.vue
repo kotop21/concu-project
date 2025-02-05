@@ -16,7 +16,7 @@ import {
 <template>
   <header class="fixed-header">
     <div class="header-container">
-      <div class="header-section title-section" style="font-size: 21px;">
+      <div class="header-section title-section" style="font-size: 26px;">
         <p class="shadow">Вояджер</p>
         <Satellite class="" />
       </div>
