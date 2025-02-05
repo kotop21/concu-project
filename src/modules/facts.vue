@@ -40,7 +40,7 @@ onBeforeUnmount(() => {
 <template>
   <Card class="card-container" id="module5">
     <CardHeader>
-      <CardTitle style="display: flex; align-items: center; ">
+      <CardTitle style="display: flex; align-items: center; font-size: 22px">
         <Lightbulb class="w-7 h-7" />
         <h2> Цікаві факти</h2>
       </CardTitle>
