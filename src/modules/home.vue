@@ -62,7 +62,7 @@ onBeforeUnmount(() => {
 <div class="flex gap-5 mt-5">
   <figure class="flex-1">
     <img
-      src="https://gdb.voanews.com/5a78befa-96f4-4f55-9f4d-573ce1eba08f_cx0_cy14_cw0_w1080_h608_s.jpg"
+      src="https://cdn.discordapp.com/attachments/1337518454642708500/1337518776324722750/5a78befa-96f4-4f55-9f4d-573ce1eba08f_cx0_cy14_cw0_w1080_h608_s.jpg?ex=67a7bcee&is=67a66b6e&hm=aba17e26b8eb9df7f5387195eca7d4c9c8cf11f0757c89a61a2d137357aef3e2&"
       alt="Вояджер-1"
       class="w-full h-48 object-cover rounded-lg"
     />
@@ -70,7 +70,7 @@ onBeforeUnmount(() => {
   </figure>
   <figure class="flex-1">
     <img
-      src="https://naked-science.ru/wp-content/uploads/shesht-comments/image-625-1693386682.6599.png"
+      src="https://cdn.discordapp.com/attachments/1337518454642708500/1337519027244761139/image-625-1693386682.6599.jpg?ex=67a7bd29&is=67a66ba9&hm=632ef0c4f8705445567c7d86b63911495623feddaa77cfcfe4bfd019fb040ac8&"
       alt="Вояджер-2"
       class="w-full h-48 object-cover rounded-lg"
     />
