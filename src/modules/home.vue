@@ -59,16 +59,24 @@ onBeforeUnmount(() => {
         відкриттями, що змінюють наше розуміння всесвіту.
       </CardDescription>
     </CardHeader>
-    <div class="flex gap-5 mt-5">
-  <figure>
-    <img src="https://gdb.voanews.com/5a78befa-96f4-4f55-9f4d-573ce1eba08f_cx0_cy14_cw0_w1080_h608_s.jpg" alt="Вояджер-1" class="w-48 rounded-lg">
+<div class="flex gap-5 mt-5">
+  <figure class="flex-1">
+    <img
+      src="https://gdb.voanews.com/5a78befa-96f4-4f55-9f4d-573ce1eba08f_cx0_cy14_cw0_w1080_h608_s.jpg"
+      alt="Вояджер-1"
+      class="w-full h-48 object-cover rounded-lg"
+    />
     <figcaption class="text-center mt-2 text-sm text-gray-600">Вояджер-1</figcaption>
   </figure>
-  <figure>
-    <img src="https://naked-science.ru/wp-content/uploads/shesht-comments/image-625-1693386682.6599.png" alt="Вояджер-2" class="w-48 rounded-lg">
+  <figure class="flex-1">
+    <img
+      src="https://naked-science.ru/wp-content/uploads/shesht-comments/image-625-1693386682.6599.png"
+      alt="Вояджер-2"
+      class="w-full h-48 object-cover rounded-lg"
+    />
     <figcaption class="text-center mt-2 text-sm text-gray-600">Вояджер-2</figcaption>
   </figure>
-    </div>
+</div>
     <div class="horizontal-line" />
 
     <CardContent>
