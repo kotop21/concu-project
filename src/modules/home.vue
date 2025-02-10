@@ -62,7 +62,7 @@ onBeforeUnmount(() => {
 <div class="flex gap-5 mt-5">
   <figure class="flex-1">
     <img
-      src="https://imgur.com/IdIqvUe"
+      src="https://i.imgur.com/IdIqvUe.jpeg"
       alt="Вояджер-1"
       class="w-full h-48 object-cover rounded-lg"
     />
@@ -70,7 +70,7 @@ onBeforeUnmount(() => {
   </figure>
   <figure class="flex-1">
     <img
-      src="https://imgur.com/tsdAw8X"
+      src="https://i.imgur.com/tsdAw8X.jpeg"
       alt="Вояджер-2"
       class="w-full h-48 object-cover rounded-lg"
     />
